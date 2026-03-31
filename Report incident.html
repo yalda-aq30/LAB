@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Report Incident.css">
+    <title>Report Incident</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h1>Logo</h1>
+            </div>
+            <Nav class="nav-list">
+                <ul class="nav-ul">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/handbook">Handbook</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li class="report-incident"><a class="report" href="/report-incident">Report Incident</a></li>
+                </ul>
+            </Nav>
+        </div>
+    </header>
+   <main>
+    <div class="title-banner">
+        <h1>Report Incident</h1>
+    </div>
+
+    <form class="incident-form">
+        <form class="incident-form">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="incident-title">Incident Title</label>
+            <input type="text" id="incident-title" placeholder="e.g Package damage...">
+        </div>
+        <div class="form-group">
+            <label for="incident-type">Type of Incident</label>
+            <select id="incident-type">
+                <option>Select incident type</option>
+                <option>Accident</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="Enter your location">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group flex-2">
+            <label for="description">Description</label>
+            <textarea id="description" placeholder="Provide detailed info..."></textarea>
+        </div>
+        <div class="form-group flex-1">
+            <label for="date">Date and Time</label>
+            <input type="datetime-local" id="date">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label>Upload Evidence</label>
+            <div class="upload-box">
+                <p>Upload Photos or Files</p>
+                <div class="icons">📷 🖼️ 📎</div>
+                <input type="file" id="file-upload" style="display:none">
+                <button type="button" class="btn-browse" onclick="document.getElementById('file-upload').click()">Browse Files</button>
+                <p class="upload-footer">Attach any relevant photos, videos or documents</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Reporter Information</label>
+            <div class="info-box">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Your Full Name">
+                
+                <label for="id-num">Employee ID Number</label>
+                <input type="text" id="id-num" placeholder="ID Number">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-actions">
+        <button type="button" class="btn-cancel">Cancel</button>
+        <button type="submit" class="btn-submit">Submit Report</button>
+    </div>
+</main>
+</form>
+<footer class="footer">
+        <p class="footer1">Copyright ©2026 Team 3</p>
+</footer>
+</body>
+</html>
