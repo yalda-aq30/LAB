@@ -134,6 +134,7 @@ a {
 .card-text h1 {
   font-size: 18px;
   margin: 0;
+  font-weight: bold;
 }
 
 .card-text p {
