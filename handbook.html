@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +8,160 @@
     <title>HandBook</title>
     <style>
 
+
+.nav-bar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #FF8C00;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  height: 30px;
+  color: white;
+}
+
+.nav-ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.report-incident{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.handbook {
+    font-size: 2rem;
+    background-color: #FEEDED;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policies_guidlines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:left;
+    margin-bottom: 100px;
+  
+}
+
+
+.card1 , .card2, .card3 , .card4{
+    margin: 20px;
+    padding: 20px;
+    font-size: 2.25rem;
+    font-weight: bold;
+    background-color: #FEEDED;
+    height: 156px;
+    width: 504px;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+    border-radius: 8px;     
+    
+    float:left;
+    margin-left:80px;
+   
+}
+
+
+
+.footer {
+    margin-top: auto;
+    height: 40px;
+    background-color: #f3eeed;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+}
+.footer1{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 0.8rem;
+	
+   
+}
         
     </style>
 </head>
 <body>
-    
+     <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h1>Logo</h1>
+            </div>
+            <Nav class="nav-list">
+                <ul class="nav-ul">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/handbook">Handbook</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li class="report-incident"><a class="report" href="/report-incident">Report Incident</a></li>
+                </ul>
+            </Nav>
+        </div>
+    </header>
+	
+	 <main>
+        <section class="handbook">
+            <h1>HandBook</h1>
+        </section>
+    </main>
+
+    <div>
+        <h1 class="policies_guidlines">Our Policies, guidelines and Procedure</h1>
+    </div>
+	
+	
+	<div class="card_container">
+
+        <div class="card1"><a href="/Company Policies">Company Policies </a></div>
+        <div class="card2"><a href="/Driver Protocol">Driver Protocol </a></div>
+        <div class="card3"><a href="/Safety Guidelines">Safety Guidelines </a></div>
+        <div class="card4"><a href="/Incident Reporting">Incident Reporting </a></div>
+
+    </div>
+	
+	
+	
+	
+	
+	<footer class="footer">
+        <h1 class="footer1">Copyright © 2026 team 2 </h1>
+    </footer>
+	
+	
 </body>
 </html>
+
