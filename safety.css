@@ -93,8 +93,9 @@ body {
 }
 .footer {
     margin-top: auto;
-    height: 10px;
+    height: 15px;
     background-color: #f3eeed;
-    text-align: center;
     padding: 20px; 
+    align-items: center;
+    justify-content: center;
 }
