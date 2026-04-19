@@ -23,8 +23,8 @@ body {
     align-items: center;
     height: 150px;
     background-color: #FF8C00;
-    padding: 0 50px;
-    width: 100%;
+    padding: 0 80px;
+    
 }
 
 .nav-logo {
@@ -32,16 +32,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 20px 35px;
+    padding: 10px 30px;
     border-radius: 5px;
-    height: 30px;
+    height: 20px;
     color: white;
+    margin-left: 10px;
+    width: 30;
 }
 
 .nav-ul {
     display: flex;
     list-style-type: none;
-    gap: 50px;
+    gap: 30px;
+    align-items: center;
 }
 
 .nav-ul a {
@@ -51,15 +54,12 @@ body {
 }
 
 .report-incident {
-    background-color: white;
+   background-color: white;
     border-radius: 8px;
-    padding: 8px 25px;
+    padding: 10px 25px;
+    display: flex;
+    margin-left: 20px;
 }
-
-
-
-/*welcome banner*/
-
 .welcome-banner{
     display: flex;
     align-items: center;
