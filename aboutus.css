@@ -20,20 +20,14 @@ body {
 }
 
 .nav-bar {
-    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
     background-color: #FF8C00;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 50px;
     width: 100%;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
 }
-
 
 .nav-logo {
     display: flex;
@@ -44,34 +38,19 @@ body {
     border-radius: 5px;
     height: 30px;
     color: white;
-    font-size: 0.8rem;
-    
 }
 
 .nav-ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     list-style-type: none;
     gap: 50px;
-    white-space: nowrap;
-
+    align-items: center;
 }
 
 .nav-ul a {
     font-size: 18px;
     text-decoration: none;
     color: black;
-    font: weight 500px;
-    display: flex;
-}
-
-.nav-ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text: nowrap
 }
 
 .report-incident {
@@ -155,8 +134,10 @@ a {
     background-color: #f3eeed;
 
 }
-.footer1{
+.footer {
+    margin-top: auto;
+    height: 40px;
+    background-color: #f3eeed;
     text-align: center;
-    font-size: 13px;
-    margin-top: 0.8rem;
+    padding: 30px; 
 }
