@@ -91,11 +91,10 @@ body {
 .main-text li {
     margin-bottom: 10px;
 }
-.footer {
+footer {
     margin-top: auto;
-    height: 15px;
+    height: 40px;
     background-color: #f3eeed;
-    padding: 20px; 
     text-align: center;
-    justify-content: center;
+    padding: 30px; 
 }
