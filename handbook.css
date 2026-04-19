@@ -35,16 +35,16 @@ body {
 }
 
 .nav-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  padding: 20px 35px;
-  border-radius: 5px;
-  height: 30px;
-  color: white;
-  font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
 }
+
+.logoimg{
+    width: 250px
+}
+
 
 .nav-ul {
   display: flex;
@@ -81,10 +81,7 @@ a {
   color: black;
 }
 
-.logo {
-  text-decoration: none;
-  color: white;
-}
+
 
 .handbook {
   font-size: 2rem;
