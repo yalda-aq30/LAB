@@ -43,6 +43,7 @@ body {
     display: flex;
     list-style-type: none;
     gap: 50px;
+    align-items: center;
 }
 
 .nav-ul a {
