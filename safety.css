@@ -22,9 +22,10 @@ body {
     background-color: black;
     padding: 10px 30px;
     border-radius: 5px;
-    height: 30px;
+    height: 20px;
     color: white;
-    margin-left: 20px;
+    margin-left: 10px;
+    width: 30;
 }
 
 .nav-ul {
@@ -92,7 +93,7 @@ body {
 }
 .footer {
     margin-top: auto;
-    height: 30px;
+    height: 25px;
     background-color: #f3eeed;
     text-align: center;
     padding: 20px; 
