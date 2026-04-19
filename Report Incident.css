@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,8 @@
     font-weight: 300;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -15,18 +18,23 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
 }
 
 .nav-bar {
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
     background-color: #FF8C00;
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
+
 
 .nav-logo {
     display: flex;
@@ -37,19 +45,33 @@ body {
     border-radius: 5px;
     height: 30px;
     color: white;
+    font-size: 0.8rem;
+    
 }
 
 .nav-ul {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     gap: 50px;
-    align-items: center;
+    white-space: nowrap;
+
 }
 
 .nav-ul a {
     font-size: 18px;
     text-decoration: none;
     color: black;
+    font-weight: 500px;
+    display: flex;
+}
+
+.nav-ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .report-incident {
@@ -57,6 +79,12 @@ body {
     border-radius: 8px;
     padding: 8px 25px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 .title-banner {
