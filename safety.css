@@ -11,8 +11,8 @@ body {
     align-items: center;
     height: 150px;
     background-color: #FF8C00;
-    padding: 0 50px;
-    width: 100%;
+    padding: 0 80px;
+    
 }
 
 .nav-logo {
@@ -29,7 +29,7 @@ body {
 .nav-ul {
     display: flex;
     list-style-type: none;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -40,9 +40,11 @@ body {
 }
 
 .report-incident {
-    background-color: white;
-    padding: 8px 15px;
+   background-color: white;
     border-radius: 8px;
+    padding: 10px 25px;
+    display: flex;
+    margin-left: 20px;
 }
 
 .title-banner {
