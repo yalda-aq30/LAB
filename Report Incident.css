@@ -214,10 +214,12 @@ textarea {
     font-size: 16px;
 }
 
-.footer {
-    margin-top: auto;
-    height: 40px;
-    background-color: #f3eeed;
-    text-align: center;
-    padding: 30px; 
+footer {
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  font-weight: 400px;
+  align-items: center;
+  background-color: #f4eeee;
 }

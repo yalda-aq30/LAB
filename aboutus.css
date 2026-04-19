@@ -149,14 +149,12 @@ a {
 
 }
 
-.footer {
-    margin-top: auto;
-    height: 40px;
-    background-color: #f3eeed;
-
-}
-.footer1{
-    text-align: center;
-    font-size: 13px;
-    margin-top: 0.8rem;
+footer {
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  font-weight: 400px;
+  align-items: center;
+  background-color: #f4eeee;
 }
