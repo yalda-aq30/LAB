@@ -96,6 +96,6 @@ body {
     height: 15px;
     background-color: #f3eeed;
     padding: 20px; 
-    align-items: center;
+    text-align: center;
     justify-content: center;
 }
