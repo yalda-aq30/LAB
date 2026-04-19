@@ -87,6 +87,11 @@ body {
     border-radius: 14px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /*infobox*/
 
 .infobox-mother{
